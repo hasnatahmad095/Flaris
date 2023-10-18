@@ -1,0 +1,595 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#maincontainer{
+    width: 100%;
+    background-image: url(./images/header_banner_home_filtr.jpg);
+    height: 125vh;
+    background-position: center;
+    background-size: cover;
+    padding: 1px;
+}
+#navbar{
+    width: 100%;
+    height: 13%;
+    background-color: #1E1E1E;
+    position: fixed;
+    top: 0;
+    left: 0;
+}    
+#logo{
+    width: max-content;
+    height: 100%;
+    display: inline-block;
+}
+#logoimg{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#unordered{
+    display: inline-block;
+    float: right;
+    margin-left: -20px;
+    margin-top: -2%;
+}
+#list{
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+    padding:15px 0;
+    border-bottom:1px solid transparent;
+    transition:all .5s ;
+}
+#list:hover{
+    border-bottom:2px solid blue;
+}
+#ancer{
+    text-decoration: none;
+    color: white;
+}
+#content1{
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10%;
+    font-weight: bold;
+    font-family: Barlow, Yantramanav, "Open Sans", sans-serif;
+}
+#content2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5%;
+}
+.downarrow{
+  font-size: 50px;
+  color: white;
+  margin-left: 45%;
+  margin-top: 29%;
+}
+.downarrow:hover{
+    color: blue;
+    transition: .5s;
+}
+#page2{
+    width: 100%;
+    height: 120vh;
+    background-image: url(./images/rewolucja_w_lotnictwie.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 1px;
+}
+#content3{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    margin-top: 40px;
+    font-weight: bold;
+}
+#content4{
+    text-align: center;
+    color: gray;
+    margin-top: 40px;
+}
+#content5{
+    text-align: center;
+    color: gray;
+    margin-top: 40px;
+}
+#page3{
+    width: 100%;
+    height: 120vh;
+    background-color: white;
+}
+#content6{
+    text-align: center;
+    color: rgba(57, 51, 51, 0.906);
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+#content7{
+    text-align: center;
+    color: gray;
+    margin-top: 25px;
+}
+#block1{
+    width: 85%;
+    height: 8%;
+    /* background-color: red; */
+    margin-left: 5%;
+    margin-top: 2%;
+    padding: 1px;
+}
+#contentone{
+    color: black;
+    margin-top: 2%;
+    font-weight: 200;
+    margin-left: 20px;
+}
+#contenttwo{
+    margin-left: 35%;
+    margin-top: -20px;
+    color: black;
+    font-weight: 200;
+}
+#contentthree{
+    margin-left: 70%;
+    margin-top: -17px;
+    color: black;
+    font-weight: 200;
+}
+#block2{
+    width: 85%;
+    height: 8%;
+    /* background-color: royalblue; */
+    border: 1px solid  gray;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#text21{
+    color: black;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#text22{
+    color: black;
+    font-weight: 200;
+    margin-left: 37%;
+    margin-top: -20px;
+}
+#imgb2{
+    width: 8%;
+    height: 8%;
+    margin-left: 47%;
+    margin-top: -12px;
+}
+#text23{
+    color: black;
+    font-weight: 200;
+    margin-left: 72%;
+    margin-top: -20px;
+}
+#imgb21{
+    width: 8%;
+    height: 8%;
+    margin-left: 79%;
+    margin-top: -12px;
+}
+#block3{
+    width: 85%;
+    height: 8%;
+    /* background-color: royalblue; */
+    border: 1px solid  gray;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#text31{
+    color: gray;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#text32{
+    color: gray;
+    font-weight: 100;
+    margin-left: 37%;
+    margin-top: -20px;
+}
+#imgb3{
+    width: 8%;
+    height: 8%;
+    margin-left: 47%;
+    margin-top: -12px;
+}
+#text33{
+    color: gray;
+    font-weight: 100;
+    margin-left: 72%;
+    margin-top: -20px;
+}
+#imgb31{
+    width: 8%;
+    height: 8%;
+    margin-left: 79%;
+    margin-top: -12px;
+}
+#block4{
+    width: 85%;
+    height: 8%;
+    /* background-color: royalblue; */
+    border: 1px solid  gray;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#text41{
+    color: gray;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#text42{
+    color: gray;
+    font-weight: 100;
+    margin-left: 37%;
+    margin-top: -20px;
+}
+#imgb4{
+    width: 8%;
+    height: 8%;
+    margin-left: 47%;
+    margin-top: -12px;
+}
+#text43{
+    color: gray;
+    font-weight: 100;
+    margin-left: 72%;
+    margin-top: -20px;
+}
+#imgb41{
+    width: 8%;
+    height: 8%;
+    margin-left: 79%;
+    margin-top: -12px;
+}
+#block5{
+    width: 85%;
+    height: 8%;
+    /* background-color: royalblue; */
+    border: 1px solid  gray;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#text51{
+    color: gray;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#text52{
+    color: gray;
+    font-weight: 100;
+    margin-left: 37%;
+    margin-top: -20px;
+}
+#imgb5{
+    width: 8%;
+    height: 8%;
+    margin-left: 47%;
+    margin-top: -12px;
+}
+#text53{
+    color: gray;
+    font-weight: 100;
+    margin-left: 72%;
+    margin-top: -20px;
+}
+#imgb51{
+    width: 8%;
+    height: 8%;
+    margin-left: 79%;
+    margin-top: -12px;
+}
+#block6{
+    width: 85%;
+    height: 8%;
+    /* background-color: royalblue; */
+    border: 1px solid  gray;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#text61{
+    color: gray;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#text62{
+    color: gray;
+    font-weight: 100;
+    margin-left: 37%;
+    margin-top: -20px;
+}
+#imgb6{
+    width: 8%;
+    height: 8%;
+    margin-left: 47%;
+    margin-top: -12px;
+}
+#text63{
+    color: gray;
+    font-weight: 100;
+    margin-left: 72%;
+    margin-top: -20px;
+}
+#imgb61{
+    width: 8%;
+    height: 8%;
+    margin-left: 79%;
+    margin-top: -12px;
+}
+#page4{
+    width: 100%;
+    height: 130vh;
+    background-image: url(./images/flarislar01_filtr.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 1px;
+}
+#pg41{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+#pg42{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+#pg43{
+    color: white;
+    font-size: 30px;    
+    margin-top: 36%;
+    margin-left: 30%;
+}
+#pg44{
+    color: white;
+    font-size: 30px;    
+    margin-top: -2.5%;
+    margin-left: 55%;
+}
+#pg45{
+    width: 20%;
+    height: 7%;
+    border: 2px solid #00AAFF;
+    background-color: transparent;
+    color: #00AAFF;
+    font-weight: bold;
+    margin-left: 28%;
+    margin-top: 10px;
+}
+#pg45:hover{
+    color: white;
+    background-color: #00AAFF;
+    transition: .5s;
+}
+#pg46{
+    width: 22%;
+    height: 7%;
+    border: 2px solid #00AAFF;
+    background-color: transparent;
+    color: #00AAFF;
+    font-weight: bold;
+    margin-left: 54%;
+    margin-top: -4%;
+}
+#pg46:hover{
+    color: white;
+    background-color: #00AAFF;
+    transition: .5s;
+}
+#page5{
+    width: 100%;
+    height: 70vh;
+    background-image: url(./images/wiadomosci_i_informacje_prasowe_filtr.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+}
+#pg51{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 12%;
+}
+#pg52{
+    width: 15%;
+    height: 15%;
+    border: 3px solid white;
+    background-color: transparent;
+    font-size: 17px;
+    color: white;
+    margin-left: 42%;
+    margin-top: 5%;
+}
+#pg52:hover{
+    color: #00AAFF;
+    background-color: white;
+    /* transition: .5s; */
+}
+#page6{
+    width: 100%;
+    height: 110vh;
+    background-color: #1E1E1E;
+}
+#pg61{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#pg62{
+    width: 40%;
+    height: 7%;
+    background-color: transparent;
+    margin-left: 55%;
+    margin-top: -2%;
+    padding: 1px;
+}
+#pg621{
+    color: white;
+    margin-top: 1%;
+    font-size: 20px;
+}
+#pg622{
+    color: white;
+    margin-top: -4%;
+    margin-left: 31%;
+    font-size: 20px;
+}
+#pg623{
+    font-size: 20px;
+    color: white;
+    margin-top: -4.5%;
+    margin-left: 70%;
+}
+#pg63{
+    width: 40%;
+    height: 7%;
+    background-color: transparent;
+    margin-left: 55%;
+    margin-top: 1%;
+    padding: 1px;
+}
+#pg631{
+    color: gray;
+    margin-top: 2%;
+}
+#pg632{
+    color: gray;
+    margin-top: -4%;
+    margin-left: 31%;
+}
+#pg633{
+    color: gray;
+    margin-top: -4%;
+    margin-left: 70%;
+}
+#pg64{
+    width: 40%;
+    height: 7%;
+    background-color: transparent;
+    margin-left: 55%;
+    margin-top: 1%;
+    padding: 1px;
+}
+#pg641{
+    color: gray;
+    margin-top: 2%;
+}
+#pg642{
+    color: gray;
+    margin-top: -4%;
+    margin-left: 31%;
+}
+#pg643{
+    color: gray;
+    margin-top: -4%;
+    margin-left: 70%;
+}
+#pg65{
+    width: 40%;
+    height: 7%;
+    background-color: transparent;
+    margin-left: 55%;
+    margin-top: 1%;
+    padding: 1px;
+}
+#pg651{
+    color: gray;
+    margin-top: 2%;
+}
+#news{
+    color: white;
+    margin-left: 55%;
+    font-size: 20px;
+    margin-top: 3%;
+}
+#box1{
+    width: 40%;
+    height: 10%;
+    background-color: white;
+    border-radius: 4px;
+    margin-left: 55%;
+    margin-top: 1%;
+}
+.e1{
+    color: #1E1E1E;
+    width:100%; 
+    height:100%;
+    outline: none;
+    letter-spacing: 3px;
+    border:none;
+    padding:10px;
+}
+#box2{
+    width: 40%;
+    height: 10%;
+    margin-left: 55%;
+    margin-top: 1%;
+    font-size: 20px;
+    background-color: #1E1E1E;
+    border: 2px solid white;
+    color: white;
+    border-radius: 4px;
+}
+#box2:hover{
+    background-color: #4B4B4B;
+    color: white;
+    border: none;
+    border-radius: 0;
+}
+#e2{
+    color: white;
+    margin-left: 2%;
+}
+#e3{
+    color: gray;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+#e4{
+    width: 3%;
+    height: 4%;
+    background-color: gray;
+    margin-left: 88%;
+    margin-top: -3%;
+}
+#e5{
+    width: 3%;
+    height: 4%;
+    background-color: gray;
+    margin-left: 91.5%;
+    margin-top: -2%;
+}
+.fa-youtube{
+    margin-left: 9px;
+    margin-top: 5px;
+}
+.fa-facebook-f{
+    margin-left: 13px;
+    margin-top: 5px;
+}
+.fa-angle-right{
+    margin-left: -40px;
+    transition: all 0.2s linear;
+    opacity: 0;
+    color: white;
+}
+#box2:hover .fa-angle-right{
+    opacity: 1;
+    margin-left: 0;
+}
